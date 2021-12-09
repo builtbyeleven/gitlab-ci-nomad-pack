@@ -10,6 +10,12 @@ variable "region" {
   default     = "global"
 }
 
+variable "count" {
+  description = "The number of apps to be deployed"
+  type        = number
+  default     = 3
+}
+
 variable "consul_service_name" {
   description = "The consul service you wish to load balance"
   type        = string

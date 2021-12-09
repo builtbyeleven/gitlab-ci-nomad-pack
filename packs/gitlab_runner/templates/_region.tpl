@@ -1,0 +1,5 @@
+[[- define "region" -]]
+[[- if not (eq .gitlab_runner.region "") -]]
+region = [[ .gitlab_runner.region | quote]]
+[[- end -]]
+[[- end -]]

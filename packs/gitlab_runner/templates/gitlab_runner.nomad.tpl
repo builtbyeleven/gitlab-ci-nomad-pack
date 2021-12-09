@@ -1,5 +1,5 @@
-job "gitlab_runner" {
-  region      = "[[ .gitlab_runner.region ]]"
+job [[ template "job_name" ]] {
+  [[ template "region" .]]
   datacenters = [[ .gitlab_runner.datacenters  | toJson ]]
   type = "service"
 
