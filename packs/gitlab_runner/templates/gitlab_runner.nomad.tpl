@@ -1,5 +1,5 @@
 job [[ template "job_name" ]] {
-  [[ template "region" .]]
+  [[ template "region" . ]]
   datacenters = [[ .gitlab_runner.datacenters  | toJson ]]
   type = "service"
 
