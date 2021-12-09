@@ -4,8 +4,8 @@ app {
 }
 
 pack {
-  name = "gitlab-ci"
-  description = "GitLab CI Nomad Pack"
+  name = "gitlab-runner"
+  description = "GitLab Runner Nomad Pack"
   url = "https://github.com/builtbyeleven/gitlab-ci-nomad-pack"
   version = "0.0.1"
 }
